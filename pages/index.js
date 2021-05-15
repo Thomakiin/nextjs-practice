@@ -7,13 +7,17 @@ import NavBar from '../components/NavBar'
 export default function Home() {
   return (
     <html lang="en">
+      
       <head>
-        <title>Home</title>
+      <meta title = "Home"/>
+      <title>Home</title>
       </head>
+
       <body>
         <NavBar />
         <h1>Homepage</h1>
       </body>
+
     </html>
   )
 }

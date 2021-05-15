@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
+/*
 * {
-  /*box-sizing: border-box;*/
+  box-sizing: border-box;
 }
+*/
 
 body {
-  
-  /*margin-left: 25vw;*/
-  /*margin-right: 25vw;*/
-  
   background-color:rgb(252, 252, 252);
   color: #333;
   font-family: "Nunito";
   font-size: large;
 }
 
-p { /* this should be done in a new class, not every p element  */
+.blog { 
   padding: 0 1rem;
   margin: 3rem auto 6rem;
   max-width: 36rem;

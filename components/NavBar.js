@@ -1,12 +1,18 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
-export default function(){
+const NavBar = () => {
     return (
         <nav>
             <div>
                 <Link href="/">
+                    <Image src="/vercel.svg" alt="logo" width={77} height={55} />
+                </Link>
+
+                <Link href="/">
                     <a> Home</a>
                 </Link>
+
                 <Link href="/about">
                     <a> About</a>
                 </Link>
@@ -15,30 +21,4 @@ export default function(){
     )
 }
 
-/*
-const NavBar = () => {
-    return (
-        <nav>
-            <div>
-                <Link href="/">
-                    <a> Home</a>
-                </Link>
-                <Link href="/about">
-                    <a> About</a>
-                </Link>
-            </div>
-        </nav>
-    );
-}
-
-
 export default NavBar;
-*/
-
-/*
-export default function (){
-    return(
-        <div> hi i am navbar </div>
-    );
-}
-*/
